@@ -193,7 +193,8 @@ rendering, to get the button to display the correct border color:
 
 ```jsx
 function Toggle() {
-  const [isOn, setIsOn] = useState(false);
+  const [isOn, setIsOn] = useState(false); 
+  
 
   function handleClick() {
     setIsOn((isOn) => !isOn);
